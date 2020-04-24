@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3EFF1DCF244F9FB800037176 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF1DCE244F9FB800037176 /* AppDelegate.swift */; };
-		3EFF1DD1244F9FB800037176 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF1DD0244F9FB800037176 /* ViewController.swift */; };
+		3EFF1DD1244F9FB800037176 /* MoviesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF1DD0244F9FB800037176 /* MoviesVC.swift */; };
 		3EFF1DD4244F9FB800037176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF1DD2244F9FB800037176 /* Main.storyboard */; };
 		3EFF1DD6244F9FC200037176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF1DD5244F9FC200037176 /* Assets.xcassets */; };
 		3EFF1DD9244F9FC200037176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF1DD7244F9FC200037176 /* LaunchScreen.storyboard */; };
+		3EFF1DE2244FAF1900037176 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF1DE0244FAF1900037176 /* MovieTableViewCell.swift */; };
+		3EFF1DE3244FAF1900037176 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF1DE1244FAF1900037176 /* MovieTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3EFF1DCB244F9FB800037176 /* Movie Title.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Title.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFF1DCE244F9FB800037176 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3EFF1DD0244F9FB800037176 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EFF1DD0244F9FB800037176 /* MoviesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesVC.swift; sourceTree = "<group>"; };
 		3EFF1DD3244F9FB800037176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EFF1DD5244F9FC200037176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EFF1DD8244F9FC200037176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EFF1DDA244F9FC200037176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EFF1DE0244FAF1900037176 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		3EFF1DE1244FAF1900037176 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				3EFF1DCE244F9FB800037176 /* AppDelegate.swift */,
-				3EFF1DD0244F9FB800037176 /* ViewController.swift */,
+				3EFF1DD0244F9FB800037176 /* MoviesVC.swift */,
 				3EFF1DD2244F9FB800037176 /* Main.storyboard */,
 				3EFF1DD5244F9FC200037176 /* Assets.xcassets */,
 				3EFF1DD7244F9FC200037176 /* LaunchScreen.storyboard */,
 				3EFF1DDA244F9FC200037176 /* Info.plist */,
+				3EFF1DE0244FAF1900037176 /* MovieTableViewCell.swift */,
+				3EFF1DE1244FAF1900037176 /* MovieTableViewCell.xib */,
 			);
 			path = "Movie Title";
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				3EFF1DD9244F9FC200037176 /* LaunchScreen.storyboard in Resources */,
 				3EFF1DD6244F9FC200037176 /* Assets.xcassets in Resources */,
+				3EFF1DE3244FAF1900037176 /* MovieTableViewCell.xib in Resources */,
 				3EFF1DD4244F9FB800037176 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EFF1DD1244F9FB800037176 /* ViewController.swift in Sources */,
+				3EFF1DD1244F9FB800037176 /* MoviesVC.swift in Sources */,
 				3EFF1DCF244F9FB800037176 /* AppDelegate.swift in Sources */,
+				3EFF1DE2244FAF1900037176 /* MovieTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
