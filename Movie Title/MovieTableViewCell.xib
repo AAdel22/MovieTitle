@@ -59,6 +59,7 @@
                 <outlet property="movieImageView" destination="ifr-Qd-BA3" id="L1c-Dz-6XH"/>
                 <outlet property="movieTitleLabel" destination="S0C-S1-uex" id="5uJ-MI-ySK"/>
                 <outlet property="movieYearLabel" destination="9vf-cp-waM" id="VZo-Bb-oH5"/>
+                <outlet property="moviesBackgroundView" destination="H2p-sc-9uM" id="NDI-6P-k7L"/>
             </connections>
             <point key="canvasLocation" x="49" y="132"/>
         </tableViewCell>
